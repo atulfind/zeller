@@ -1,0 +1,25 @@
+.input-wrap {
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.input-wrap input {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.input-wrap label {
+  text-transform: capitalize;
+}
+
+.input-wrap * {
+  cursor: pointer;
+}
+
+.input-wrap.active {
+  background: rgba(102, 178, 255, 0.15);
+}

@@ -1,0 +1,33 @@
+.customer {
+  margin-top: 20px;
+  display: flex;
+}
+
+.avatar {
+  width: 60px;
+  height: 50px;
+  background: rgba(102, 178, 255, 0.15);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1976d2;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+
+.avatar-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.title {
+  font-size: 1.1rem;
+}
+
+.sub-title {
+  font-size: 0.9rem;
+  color: lightslategray;
+  text-transform: capitalize;
+}
